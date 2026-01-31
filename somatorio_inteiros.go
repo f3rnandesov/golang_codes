@@ -4,7 +4,7 @@ import "fmt"
 
 func main(){
 	var N int
-	fmt.Print("Digite um número inteiro: ")
+	fmt.Print("Digite um número inteiro po: ")
 	_, err := fmt.Scan(&N)
 
 	if err != nil || N <= 0{
